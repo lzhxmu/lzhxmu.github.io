@@ -18,6 +18,7 @@
     <div class="periodical"><em>European Conference on Computer Vision <strong>(ECCV)</strong>, Jul. 2024.</em></div>
     <div class="links">
       <a href="../assets/files/Accdiffusion.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="../assets/files/Accdiffusion_supplement.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Supplement</a>
       <a href="https://github.com/lzhxmu/AccDiffusion" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="../accdiffusion/accdiffusion.html" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Pages</a>
       <!-- <strong><i style="color:#7b5aa6">arXiv.org</i></strong> -->
