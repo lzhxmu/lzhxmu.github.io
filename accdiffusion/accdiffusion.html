@@ -144,7 +144,7 @@ horizontal: false
                 <image src="./figures/patch_content_aware_prompt.png" style="width:100%;" class="img-responsive center-block" alt="overview">
                     <br>
                     <p class="text-justify">
-                         The framework of DemoFusion. (a) Starting with conventional resolution generation, DemoFusion engages an "upsample-diffuse-denoise" loop, taking the low-resolution generated results as the initialization for the higher resolution through noise inversion. Within the "upsample-diffuse-denoise" loop, a noise-inverted representation from the corresponding time-step in the preceding diffusion process serves as skip-residual as global guidance. (b) To improve the local denoising paths of MultiDiffusion, we introduce dilated sampling to establish global denoising paths, promoting more globally coherent content generation.
+                        To completely solve small object repetition, as illustrated in the above figure, we propose to decouple the vanilla image-content-aware prompt into a set of patch-content-aware substrings, each of which serves as a more precise prompt to describe the patch contents. Specifically, we utilize the cross-attention map from the low-resolution generation process to determine whether a word token should serve as the prompt for a patch. If a word token has a high response in the cross-attention map region corresponding to the patch, it should be included in the prompt, and vice versa.
                     </p>
             </div>
         </div>
@@ -158,7 +158,7 @@ horizontal: false
                 <image src="./figures/dilated_sampling_with_interaction.png" style="width:100%;" class="img-responsive center-block" alt="overview">
                     <br>
                     <p class="text-justify">
-                         The framework of DemoFusion. (a) Starting with conventional resolution generation, DemoFusion engages an "upsample-diffuse-denoise" loop, taking the low-resolution generated results as the initialization for the higher resolution through noise inversion. Within the "upsample-diffuse-denoise" loop, a noise-inverted representation from the corresponding time-step in the preceding diffusion process serves as skip-residual as global guidance. (b) To improve the local denoising paths of MultiDiffusion, we introduce dilated sampling to establish global denoising paths, promoting more globally coherent content generation.
+                        Through visualization, we observe that the dilated sampling operation in DemoFusion generates globally inconsistent and noisy information, disrupting the generation of higher-resolution images. Such inconsistency stems from the independent denoising of dilation samples without interaction. To address this, we employ a position-wise bijection function to enable interaction between the noise from different dilation samples. Experimental results show that our dilated sampling with interaction leads to the generation of smoother global semantic information.
                     </p>
             </div>
         </div>
