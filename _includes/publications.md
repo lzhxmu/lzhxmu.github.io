@@ -19,7 +19,7 @@
     <div class="links">
       <a href="../assets/files/Accdiffusion.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/lzhxmu/AccDiffusion" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <!-- <a href="https://dblp.uni-trier.de/rec/conf/cvpr/LiuSLSS20.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a> -->
+      <a href="../_pages/accdiffusion/demofusion.html" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Pages</a>
       <!-- <strong><i style="color:#7b5aa6">arXiv.org</i></strong> -->
     </div>
   </div>

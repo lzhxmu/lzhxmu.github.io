@@ -1,0 +1,451 @@
+---
+layout: none
+title: DemoFusion
+<!-- permalink: /demofusion/ -->
+description: A growing collection of your cool projects.
+nav: true
+horizontal: false
+---
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>DemoFusion</title>
+
+    <meta name="description"
+        content="DemoFusion: Democratising High-resolution Image Generation without a Sweat">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <base href="/"> -->
+
+    <!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+
+    <link rel="stylesheet" href="./css/dics.min.css">
+    <script src="./js/dics.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', domReady);
+        function domReady() {
+            for (const e of document.querySelectorAll(".b-dics")) {
+                new Dics({
+                    container: e,
+                    textPosition: "top"
+                });
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                <b>DemoFusion</b>: Democratising High-Resolution Image Generation With No <b>$$$</b></br>
+<!--                 <small>
+                    arXiv
+                </small> -->
+                <img src="https://badges.toozhao.com/badges/01HFMAPCVTA1T32KN2PASNYGYK/blue.svg" />
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://ruoyidu.github.io/">
+                          Ruoyi Du<sup>1</sup><sup>,</sup><sup>4</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dongliangchang.cn/">
+                          Dongliang Chang<sup>2</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://homepages.inf.ed.ac.uk/thospeda/">
+                          Timothy M. Hospedales<sup>3</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.surrey.ac.uk/people/yi-zhe-song">
+                          Yi-Zhe Song<sup>4</sup>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://zhanyuma.cn/">
+                            Zhanyu Ma<sup>1</sup>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-inline">
+                    <li>
+                        PRIS, Beijing University of Posts and Telecommunications<sup>1</sup>
+                    </li>
+                    <li>
+                        Tsinghua University<sup>2</sup>
+                    </li>
+                    <li>
+                        University of Edinburgh<sup>3</sup>
+                    </li>
+                    <li>
+                        SketchX, University of Surrey<sup>4</sup>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-center">
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://drive.google.com/file/d/1pAWCfpEgwy4UAkUqTGDuqypJt-5bl8se/view?usp=sharing">
+<!--                             <image src="/assets/img/merf/paper.png" height="120px"> -->
+                                <h4><strong>Paper (174MB)</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://arxiv.org/pdf/2311.16973.pdf">
+<!--                             <image src="/assets/img/merf/paper.png" height="120px"> -->
+                                <h4><strong>Paper (arXiv)</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=VM4xXJRcxwU">
+<!--                             <image src="/assets/img/merf/youtube_icon.png" height="120px"> -->
+                                <h4><strong>Video</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://replicate.com/lucataco/demofusion">
+<!--                             <image src="/assets/img/merf/demo.png" height="120px"> -->
+                                <h4><strong>Demo</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/PRIS-CV/DemoFusion">
+<!--                             <image src="/assets/img/merf/github_pad.png" height="120px"> -->
+                                <h4><strong>Code</strong></h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <image src="./figures/illustration.jpg" style="width:100%;" class="img-responsive center-block" alt="overview"><br>
+            </div>
+        </div>
+
+<!--         <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Video
+                </h3>
+                <div class="text-center">
+                    <div style="position:relative;padding-top:56.25%;">
+                        <iframe src="https://www.youtube.com/watch?v=VM4xXJRcxwU" allowfullscreen
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+    
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>
+                    <b>Abstract</b>
+                </h3>
+                <image src="./figures/progressive_process.jpg" style="width:100%;" class="img-responsive center-block" alt="overview"><br>
+                <p class="text-justify">
+                    High-resolution image generation with Generative Artificial Intelligence (GenAI) has immense potential but, due to the enormous capital investment required for training, it is increasingly centralised to a few large corporations, and hidden behind paywalls. This paper aims to democratise high-resolution GenAI by advancing the frontier of high-resolution generation while remaining accessible to a broad audience. We demonstrate that existing Latent Diffusion Models (LDMs) possess untapped potential for higher-resolution image generation. Our novel DemoFusion framework seamlessly extends open-source GenAI models, employing Progressive Upscaling, Skip Residual, and Dilated Sampling mechanisms to achieve higher-resolution image generation. The progressive nature of DemoFusion requires more passes, but the intermediate results can serve as "previews", facilitating rapid prompt iteration.
+                </p>
+            </div>
+        </div>
+      
+
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>
+                    <b>Methodology</b>
+                </h3>
+                <br>
+                <image src="./figures/framework.jpg" style="width:100%;" class="img-responsive center-block" alt="overview">
+                    <br>
+                    <p class="text-justify">
+                         The framework of DemoFusion. (a) Starting with conventional resolution generation, DemoFusion engages an "upsample-diffuse-denoise" loop, taking the low-resolution generated results as the initialization for the higher resolution through noise inversion. Within the "upsample-diffuse-denoise" loop, a noise-inverted representation from the corresponding time-step in the preceding diffusion process serves as skip-residual as global guidance. (b) To improve the local denoising paths of MultiDiffusion, we introduce dilated sampling to establish global denoising paths, promoting more globally coherent content generation.
+                    </p>
+            </div>
+        </div>
+
+        <div class="row comp-margin">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>
+                    <b>SDXL vs. DemoFusion</b>
+                </h3>
+                    <p class="text-justify">
+                        SDXL[1] can synthesis images up to a resolution of 1024×1024, while DemoFusion allows SDXL to generate images at 4×, 16×, and even higher resolutions without any tuning and substantial memory demands. All generated images are produced using a single RTX 3090 GPU.
+                    </p>
+            </div>
+        </div>
+
+         <div class="row comp-margin">
+            <div class="col-md-4 col-md-offset-0">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample8_sdxl.jpg" alt="SDXL (1024×1024)" />
+                    <img src="./figures/sample8_demofusion.jpg" alt="DemoFusion (2048×2048)" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample25_sdxl.jpg" alt="SDXL (1024×1024)" />
+                    <img src="./figures/sample25_demofusion.jpg" alt="DemoFusion (2048×2048)" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample19_sdxl.jpg" alt="SDXL (1024×1024)" />
+                    <img src="./figures/sample19_demofusion.jpg" alt="DemoFusion (2048×2048)" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row comp-margin">
+            <div class="col-md-4 col-md-offset-0">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample18_sdxl.jpg" alt="SDXL (1024×1024)" />
+                    <img src="./figures/sample18_demofusion.jpg" alt="DemoFusion (3072×3072)" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample12_sdxl.jpg" alt="SDXL (1024×1024)" />
+                    <img src="./figures/sample12_demofusion.jpg" alt="DemoFusion (3072×3072)" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample20_sdxl.jpg" alt="SDXL (1024×1024)" />
+                    <img src="./figures/sample20_demofusion.jpg" alt="DemoFusion (3072×3072)" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row comp-margin">
+            <div class="col-md-4 col-md-offset-0">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample17_sdxl.jpg" alt="SDXL (1024×1024)" />
+                    <img src="./figures/sample17_demofusion.jpg" alt="DemoFusion (4096×4096)" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample21_sdxl.jpg" alt="SDXL (1024×1024)" />
+                    <img src="./figures/sample21_demofusion.jpg" alt="DemoFusion (4096×4096)" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample5_sdxl.jpg" alt="SDXL (1024×1024)" />
+                    <img src="./figures/sample5_demofusion.jpg" alt="DemoFusion (4096×4096)" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row comp-margin">
+            <div class="col-md-6 col-md-offset-0">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample9_sdxl.jpg" alt="SDXL (512×1024)" />
+                    <img src="./figures/sample9_demofusion.jpg" alt="DemoFusion (1536×3072)" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample24_sdxl.jpg" alt="SDXL (512×1024)" />
+                    <img src="./figures/sample24_demofusion.jpg" alt="DemoFusion (1536×3072)" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="row comp-margin">
+            <div class="col-md-6 col-md-offset-0">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample22_sdxl.jpg" alt="SDXL (768×1024)" />
+                    <img src="./figures/sample22_demofusion.jpg" alt="DemoFusion (2304×3072)" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample23_sdxl.jpg" alt="SDXL (768×1024)" />
+                    <img src="./figures/sample23_demofusion.jpg" alt="DemoFusion (2304×3072)" />
+                </div>
+            </div>
+        </div>
+    
+        <div class="row comp-margin">
+            <div class="col-md-12 col-md-offset-0">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample1_sdxl.jpg" alt="SDXL (512×1024)" />
+                    <img src="./figures/sample1_demofusion.jpg" alt="DemoFusion (3072×6144)" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row comp-margin">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>
+                    <b>SDXL+SR vs. DemoFusion</b>
+                </h3>
+                    <p class="text-justify">
+                        While the SR (Super-Resolution) model can enhance low-resolution images to appear sharper and clearer, it falls short in providing the intricate local details inherent to native high-resolution images. This distinction underscores the fundamental difference between high-resolution generation and super-resolution, highlighting why super-resolution cannot serve as a substitute for genuine high-resolution image generation. Here, we employ BSRGAN[2] for super-resolution. To better illustrate the local details, we present results at a 200% zoom-in for images with a resolution of 4096×4096.
+            </div>
+        </div>
+
+        <div class="row comp-margin">
+            <div class="col-md-4 col-md-offset-0">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample7_SR_zoom200.jpg" alt="SDXL+BSRGAN" />
+                    <img src="./figures/sample7_demofusion_zoom200.jpg" alt="DemoFusion" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample13_SR_zoom200.jpg" alt="SDXL+BSRGAN" />
+                    <img src="./figures/sample13_demofusion_zoom200.jpg" alt="DemoFusion" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample6_SR_zoom200.jpg" alt="SDXL+BSRGAN" />
+                    <img src="./figures/sample6_demofusion_zoom200.jpg" alt="DemoFusion" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row comp-margin">
+            <div class="col-md-4 col-md-offset-0">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample2_SR_zoom200.jpg" alt="SDXL+BSRGAN" />
+                    <img src="./figures/sample2_demofusion_zoom200.jpg" alt="DemoFusion" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample15_SR_zoom200.jpg" alt="SDXL+BSRGAN" />
+                    <img src="./figures/sample15_demofusion_zoom200.jpg" alt="DemoFusion" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-dics img-responsive center-block" style="width:100%;">
+                    <img src="./figures/sample14_SR_zoom200.jpg" alt="SDXL+BSRGAN" />
+                    <img src="./figures/sample14_demofusion_zoom200.jpg" alt="DemoFusion" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>
+                    <b>Combining with ControlNet</b>
+                </h3>
+                <p class="text-justify">
+                     The tuning-free characteristic of DemoFusion enables seamless integration with many LDM-based applications. E.g., DemoFusion combined with ControlNet[3] can achieve controllable high-resolution generation.
+                </p>
+            </div>
+            <div class="col-md-12 col-md-offset-0">
+                <br>
+                <image src="./figures/controlnet.jpg" style="width:100%;" class="img-responsive center-block" alt="overview">
+                <br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>
+                    <b>Upscaling Real Images</b>
+                </h3>
+                <p class="text-justify">
+                     Since DemoFusion works in a progressive manner, we can replace the output of phase #1 with encoded real image representations, thereby achieving upscaling of real images. However, we carefully avoid using the term "super resolution", as the outputs tend to lean towards the latent data distribution of the base LDM, making this process more akin to image generation based on a real image.
+                </p>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <br>
+                <image src="./figures/real_image.jpg" style="width:100%;" class="img-responsive center-block" alt="overview">
+                <br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>
+                    <b>Citation</b>
+                </h3>
+                <p>
+                    If you find this paper useful in your research, please consider citing:
+                </p>
+                <pre>
+@inproceedings{du2024demofusion,
+  title={DemoFusion: Democratising High-Resolution Image Generation With No \$\$\$},
+  author={Du, Ruoyi and Chang, Dongliang and Hospedales, Timothy and Song, Yi-Zhe and Ma, Zhanyu},
+  booktitle={CVPR},
+  year={2024}
+}
+                </pre>
+            </div>
+        </div>
+    
+        <div class="row comp-margin">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>
+                    <b>Reference</b>
+                </h3>
+                <ol class="text-justify">
+                    <li>Podell, Dustin, et al. "Sdxl: improving latent diffusion models for high-resolution image synthesis." arXiv preprint arXiv:2307.01952. 2023.</li>
+                    <li>Zhang, Kai, et al. "Designing a practical degradation model for deep blind image super-resolution." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021.</li>
+                    <li>Zhang, Lvmin, et al. "Adding conditional control to text-to-image diffusion models." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2023.</li>
+                </ol>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h3>
+                    <b>Acknowledgements</b>
+                </h3>
+                <p class="text-justify">
+                    The work is done while Ruoyi Du visiting the People-Centred AI Institute at the University of Surrey.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
