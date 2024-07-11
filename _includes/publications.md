@@ -12,11 +12,11 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="../assets/files/TenHave2023.pdf">AccDiffusion: An Accurate Method for Higher-Resolution Image Generation</a></div>
+    <div class="title"><a href="../assets/files/Accdiffusion.pdf">AccDiffusion: An Accurate Method for Higher-Resolution Image Generation</a></div>
     <div class="author"><strong>Zhihang Lin, Mingbao Lin, Meng Zhao, Rongrong Ji</strong></div>
     <div class="periodical"><em>European Conference on Computer Vision <strong>(ECCV)</strong>, Jul. 2024.</em></div>
     <div class="links">
-      <a href="../assets/files/TenHave2023.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="../assets/files/Accdiffusion.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/lzhxmu/AccDiffusion" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <!-- <a href="https://dblp.uni-trier.de/rec/conf/cvpr/LiuSLSS20.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a> -->
       <!-- <strong><i style="color:#7b5aa6">arXiv.org</i></strong> -->
