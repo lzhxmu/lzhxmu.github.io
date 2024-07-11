@@ -1,6 +1,6 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
-<h3 id="2024" style="margin: 10px 2px -15px;">2024</h2>
+<h3 id="2024" style="margin: 10px 2px -15px;">2024</h3>
 
 <div class="publications">
 <ol class="bibliography">
