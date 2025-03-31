@@ -50,6 +50,9 @@
 </li>
   
 <h3 id="2025" style="margin: 20px 2px -15px;">2025</h3>
+
+<br>
+
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
@@ -69,6 +72,7 @@ Policy Optimization-Based Reasoning Models</a></div>
   </div>
 </div>
 </li>
+
 <br>
 
 </ol>
