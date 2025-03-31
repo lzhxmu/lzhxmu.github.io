@@ -48,10 +48,17 @@
   </div>
 </div>
 </li>
+
+</ol>
+</div>
+
+
   
 <h3 id="2025" style="margin: 20px 2px -15px;">2025</h3>
 
-<br>
+<div class="publications">
+<ol class="bibliography">
+
 
 <li>
 <div class="pub-row">
@@ -72,8 +79,6 @@ Policy Optimization-Based Reasoning Models</a></div>
   </div>
 </div>
 </li>
-
-<br>
 
 </ol>
 </div>
