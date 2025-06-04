@@ -17,7 +17,7 @@
     <div class="title"><a href="https://arxiv.org/pdf/2412.02099">AccDiffusion v2: Towards More Accurate
 Higher-Resolution Diffusion Extrapolation</a></div>
     <div class="author"><strong>Zhihang Lin, Mingbao Lin, Wengyi Zhan, Rongrong Ji</strong></div>
-    <div class="periodical"><em><strong>TPAMI</strong>, June 2025.</em></div>
+    <div class="periodical"><em><strong>Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</strong>, June 2025.</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2412.02099" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/lzhxmu/AccDiffusion_v2" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
