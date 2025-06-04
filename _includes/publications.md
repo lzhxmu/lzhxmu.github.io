@@ -1,5 +1,57 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
+
+<h3 id="2025" style="margin: 20px 2px -15px;">2025</h3>
+
+<div class="publications">
+<ol class="bibliography">
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="../assets/img/accdiffusionv2.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Arxiv</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2412.02099">AccDiffusion v2: Towards More Accurate
+Higher-Resolution Diffusion Extrapolation</a></div>
+    <div class="author"><strong>Zhihang Lin, Mingbao Lin, Wengyi Zhan, Rongrong Ji</strong></div>
+    <div class="periodical"><em><strong>Arxiv</strong>, June 2025.</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2412.02099" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/lzhxmu/AccDiffusion_v2" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+    </div>
+  </div>
+</div>
+</li>
+
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="../assets/img/cppo.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Arxiv</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/pdf/2503.22342">CPPO: Accelerating the Training of Group Relative
+Policy Optimization-Based Reasoning Models</a></div>
+    <div class="author"><strong>Zhihang Lin, Mingbao Lin, Yuan Xie, Rongrong Ji</strong></div>
+    <div class="periodical"><em><strong>Arxiv</strong>, March 2025.</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2503.22342" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/lzhxmu/CPPO" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+    </div>
+  </div>
+</div>
+</li>
+
+
+
+</ol>
+</div>
+
 <h3 id="2024" style="margin: 20px 2px -15px;">2024</h3>
 
 <div class="publications">
@@ -54,31 +106,3 @@
 
 
   
-<h3 id="2025" style="margin: 20px 2px -15px;">2025</h3>
-
-<div class="publications">
-<ol class="bibliography">
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/img/cppo.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Arxiv</abbr>
-  </div>
-
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2503.22342">CPPO: Accelerating the Training of Group Relative
-Policy Optimization-Based Reasoning Models</a></div>
-    <div class="author"><strong>Zhihang Lin, Mingbao Lin, Yuan Xie, Rongrong Ji</strong></div>
-    <div class="periodical"><em><strong>Arxiv</strong>, March 2025.</em></div>
-    <div class="links">
-      <a href="https://arxiv.org/pdf/2503.22342" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/lzhxmu/CPPO" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-    </div>
-  </div>
-</div>
-</li>
-
-</ol>
-</div>
