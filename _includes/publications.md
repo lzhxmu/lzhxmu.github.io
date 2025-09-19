@@ -31,14 +31,14 @@ Higher-Resolution Diffusion Extrapolation</a></div>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="../assets/img/cppo.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Arxiv</abbr>
+    <abbr class="badge">NeurIPS</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/pdf/2503.22342">CPPO: Accelerating the Training of Group Relative
 Policy Optimization-Based Reasoning Models</a></div>
     <div class="author"><strong>Zhihang Lin, Mingbao Lin, Yuan Xie, Rongrong Ji</strong></div>
-    <div class="periodical"><em><strong>Arxiv</strong>, March 2025.</em></div>
+    <div class="periodical"><em><strong>NeurIPS</strong>, 2025.</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2503.22342" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/lzhxmu/CPPO" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
