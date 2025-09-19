@@ -17,7 +17,7 @@
     <div class="title"><a href="https://arxiv.org/pdf/2412.02099">AccDiffusion v2: Towards More Accurate
 Higher-Resolution Diffusion Extrapolation</a></div>
     <div class="author"><strong>Zhihang Lin, Mingbao Lin, Wengyi Zhan, Rongrong Ji</strong></div>
-    <div class="periodical"><em><strong>Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</strong>, June 2025.</em></div>
+    <div class="periodical"><em>Transactions on Pattern Analysis and Machine Intelligence <strong>(TPAMI)</strong>, June 2025.</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2412.02099" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/lzhxmu/AccDiffusion_v2" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
@@ -38,7 +38,7 @@ Higher-Resolution Diffusion Extrapolation</a></div>
     <div class="title"><a href="https://arxiv.org/pdf/2503.22342">CPPO: Accelerating the Training of Group Relative
 Policy Optimization-Based Reasoning Models</a></div>
     <div class="author"><strong>Zhihang Lin, Mingbao Lin, Yuan Xie, Rongrong Ji</strong></div>
-    <div class="periodical"><em><strong>NeurIPS</strong>, September 2025.</em></div>
+    <div class="periodical"><em>Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, September 2025.</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2503.22342" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/lzhxmu/CPPO" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
